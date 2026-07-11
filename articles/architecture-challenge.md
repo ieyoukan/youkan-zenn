@@ -30,7 +30,7 @@ SRE・パブリッククラウド志望学生向けのインターンです。**
 
 ## 私が作った設計はこうです！
 
-![システム構成図-概要](</images/architecture-challenge/ファンクラブプラットフォーム マクロ.drawio.png>)
+![システム構成図-概要](</images/architecture-challenge/ファンクラブ概要.drawio.png>)
 *実際にこれを１日で考える*
 
 ![システム構成図-論理](/images/architecture-challenge/ファンクラブk8s.drawio.png)
