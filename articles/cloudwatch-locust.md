@@ -11,7 +11,7 @@ published: false
 
 > 「aws cloudwatchがめっちゃ跳ねてる…」
 
-![Cost Explorerのグラフ](/images/cloudwatch/graqh.png)
+![Cost Explorerのグラフ](/images/cloudwatch/graph.png)
 *(※青い部分がすべてCloudWatchの料金です)*
 
 グラフを見た瞬間、「んんん!!??」と声が出ました。あ、これは絶対どこかのログが暴走してるやつだ、という嫌な予感がしました。そして、これが世に言う**CloudWatchのクラウド破産**か…とこの瞬間全てを察しました。講義終わりでバイト前だったのに、そのままバイトどころではなくなり緊急対応スタートです。
