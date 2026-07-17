@@ -1,7 +1,7 @@
 ---
 title: "【体験記】CyberAgent Architecture Challenge 2026"
 emoji: "🫛"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "Idea" # tech: 技術記事 / idea: アイデア
 topics: ["SRE", "EKS", "AWS", "インターン", "CyberAgent"]
 published: true
 ---
