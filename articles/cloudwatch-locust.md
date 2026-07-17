@@ -3,7 +3,7 @@ title: "負荷試験でCloudWatchの料金が爆発してクラウド破産し�
 emoji: "😨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["失敗談", "AWS", "コスト", "locust", "cloudwatch"]
-published: false
+published: true
 ---
 ## 何が起こったのか
 
