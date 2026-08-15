@@ -19,16 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/p-nasimonan/youkan-zenn.git"
+    "url": "git+https://github.com/ieyoukan/youkan-zenn.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/p-nasimonan/youkan-zenn/issues"
+    "url": "https://github.com/ieyoukan/youkan-zenn/issues"
   },
-  "homepage": "https://github.com/p-nasimonan/youkan-zenn#readme",
+  "homepage": "https://github.com/ieyoukan/youkan-zenn#readme",
   "dependencies": {
     "textlint-rule-ja-no-weak-phrase": "^2.0.0",
     "zenn-cli": "^0.5.2"

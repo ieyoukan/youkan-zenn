@@ -129,7 +129,7 @@ metadata:
 spec:
   project: default
   sources:
-    - repoURL: https://github.com/p-nasimonan/home-manifests.git
+    - repoURL: https://github.com/ieyoukan/home-manifests.git
       targetRevision: main
       path: apps/proxmox-csi
     - repoURL: https://sergelogvinov.github.io/helm-charts

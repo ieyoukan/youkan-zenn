@@ -47,7 +47,7 @@ https://zenn.dev/yokan/articles/c452db930f7de6
 
 それと今回はリポジトリを安全に**公開したいのでSealedSecret**を使います。ローカルで公開鍵で暗号化してサーバーの秘密鍵で復号化されてKubernetesSecretになるって感じです。
 ↓これがリポジトリです。
-https://github.com/p-nasimonan/home-manifests
+https://github.com/ieyoukan/home-manifests
 
 ## 構成図
 
@@ -121,7 +121,7 @@ spec:
 New Appからも登録できますがCLIのほうが楽なのでkubectlでできます。
 
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/p-nasimonan/home-manifests/main/argocd-apps/sealed-secrets.yaml
+kubectl apply -f https://raw.githubusercontent.com/ieyoukan/home-manifests/main/argocd-apps/sealed-secrets.yaml
 ```
 
 なんかわからないって人はgit pullしてそのままapplyしちゃって大丈夫
@@ -167,7 +167,7 @@ spec:
   project: default
   sources:
     # Sealed Secret と Helm chart の管理
-    - repoURL: https://github.com/p-nasimonan/home-manifests.git
+    - repoURL: https://github.com/ieyoukan/home-manifests.git
       targetRevision: main
       path: apps/cloudflare
     - repoURL: https://helm.strrl.dev
@@ -323,7 +323,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/p-nasimonan/home-manifests.git
+    repoURL: https://github.com/ieyoukan/home-manifests.git
     targetRevision: main
     path: apps/misskey
     directory:
@@ -445,7 +445,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/p-nasimonan/home-manifests.git
+    repoURL: https://github.com/ieyoukan/home-manifests.git
     targetRevision: main
     path: apps/misskey
     directory:
