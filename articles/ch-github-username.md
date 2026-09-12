@@ -17,3 +17,28 @@ GithubリポジトリのREADMEやSNSのリンクはすべて張り替えたは�
 ![](/images/ch-github-username/image2.png)
 
 ![](/images/ch-github-username/image3.png)
+
+![](/images/ch-github-username/image4.png)
+
+
+
+  ✓ Logged in to github.com account p-nasimonan (keyring)
+  - Active account: false
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'project', 'read:org', 'repo', 'workflow'
+
+  ✓ Logged in to github.com account ieyoukan (keyring)
+  - Active account: false
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
+
+
+  github mobile　なんかおかしくなる
+
+  githubのログイン
+  2faもダメ
+  リカバリは知らない
+
+2faとかやり直した方がいい
